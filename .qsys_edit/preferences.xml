@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="31" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="269" />
+   <clocksource preferredWidth="269" />
+   <frequency preferredWidth="250" />
+  </columns>
+ </clocktable>
+ <library
+   expandedCategories="Library/Interface Protocols/Transceiver PLL,Library/Interface Protocols,Library/Basic Functions/Clocks; PLLs and Resets/PLL,Library/University Program/Clock,Library,Project,Library/Basic Functions,Library/University Program,Library/Basic Functions/Clocks; PLLs and Resets" />
+ <window width="1100" height="800" x="241" y="100" />
+ <hdlexample language="VHDL" />
+ <generation synthesis="VHDL" />
+</preferences>
