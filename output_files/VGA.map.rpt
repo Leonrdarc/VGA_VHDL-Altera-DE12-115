@@ -1,5 +1,5 @@
 Analysis & Synthesis report for VGA
-Fri Mar 22 18:00:03 2019
+Sat Mar 23 16:34:13 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -50,7 +50,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Mar 22 18:00:03 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sat Mar 23 16:34:13 2019       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; VGA                                         ;
 ; Top-level Entity Name              ; VGA                                         ;
@@ -159,29 +159,28 @@ refer to the applicable agreement for further details.
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
 ; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.0%      ;
-;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                       ;
-+-----------------------------------------+-----------------+------------------------+---------------------------------------------------------------+---------+
-; File Name with User-Entered Path        ; Used in Netlist ; File Type              ; File Name with Absolute Path                                  ; Library ;
-+-----------------------------------------+-----------------+------------------------+---------------------------------------------------------------+---------+
-; pll/synthesis/pll.vhd                   ; yes             ; User VHDL File         ; C:/PC1/VGA-master/VGA/pll/synthesis/pll.vhd                   ; pll     ;
-; pll/synthesis/submodules/pll_altpll_0.v ; yes             ; User Verilog HDL File  ; C:/PC1/VGA-master/VGA/pll/synthesis/submodules/pll_altpll_0.v ; pll     ;
-; VGA.vhd                                 ; yes             ; User VHDL File         ; C:/PC1/VGA-master/VGA/VGA.vhd                                 ;         ;
-; Vhdl2.vhd                               ; yes             ; User VHDL File         ; C:/PC1/VGA-master/VGA/Vhdl2.vhd                               ;         ;
-; pcg.vhd                                 ; yes             ; User VHDL File         ; C:/PC1/VGA-master/VGA/pcg.vhd                                 ;         ;
-+-----------------------------------------+-----------------+------------------------+---------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                      ;
++-----------------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path        ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                 ; Library ;
++-----------------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------------------------+---------+
+; pll/synthesis/pll.vhd                   ; yes             ; User VHDL File         ; C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/pll.vhd                   ; pll     ;
+; pll/synthesis/submodules/pll_altpll_0.v ; yes             ; User Verilog HDL File  ; C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/submodules/pll_altpll_0.v ; pll     ;
+; VGA.vhd                                 ; yes             ; User VHDL File         ; C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd                                 ;         ;
+; Vhdl2.vhd                               ; yes             ; User VHDL File         ; C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd                               ;         ;
+; pcg.vhd                                 ; yes             ; User VHDL File         ; C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pcg.vhd                                 ;         ;
++-----------------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------+
@@ -468,228 +467,228 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Mar 22 17:59:50 2019
+    Info: Processing started: Sat Mar 23 16:33:56 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off VGA -c VGA
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file pll/synthesis/pll.vhd
-    Info (12022): Found design unit 1: pll-rtl File: C:/PC1/VGA-master/VGA/pll/synthesis/pll.vhd Line: 17
-    Info (12023): Found entity 1: pll File: C:/PC1/VGA-master/VGA/pll/synthesis/pll.vhd Line: 9
+    Info (12022): Found design unit 1: pll-rtl File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/pll.vhd Line: 17
+    Info (12023): Found entity 1: pll File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/pll.vhd Line: 9
 Info (12021): Found 4 design units, including 4 entities, in source file pll/synthesis/submodules/pll_altpll_0.v
-    Info (12023): Found entity 1: pll_altpll_0_dffpipe_l2c File: C:/PC1/VGA-master/VGA/pll/synthesis/submodules/pll_altpll_0.v Line: 37
-    Info (12023): Found entity 2: pll_altpll_0_stdsync_sv6 File: C:/PC1/VGA-master/VGA/pll/synthesis/submodules/pll_altpll_0.v Line: 98
-    Info (12023): Found entity 3: pll_altpll_0_altpll_3742 File: C:/PC1/VGA-master/VGA/pll/synthesis/submodules/pll_altpll_0.v Line: 130
-    Info (12023): Found entity 4: pll_altpll_0 File: C:/PC1/VGA-master/VGA/pll/synthesis/submodules/pll_altpll_0.v Line: 213
+    Info (12023): Found entity 1: pll_altpll_0_dffpipe_l2c File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/submodules/pll_altpll_0.v Line: 37
+    Info (12023): Found entity 2: pll_altpll_0_stdsync_sv6 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/submodules/pll_altpll_0.v Line: 98
+    Info (12023): Found entity 3: pll_altpll_0_altpll_3742 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/submodules/pll_altpll_0.v Line: 130
+    Info (12023): Found entity 4: pll_altpll_0 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/submodules/pll_altpll_0.v Line: 213
 Info (12021): Found 2 design units, including 1 entities, in source file vga.vhd
-    Info (12022): Found design unit 1: VGA-MAIN File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 22
-    Info (12023): Found entity 1: VGA File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 6
+    Info (12022): Found design unit 1: VGA-MAIN File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 22
+    Info (12023): Found entity 1: VGA File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file vhdl2.vhd
-    Info (12022): Found design unit 1: SYNC-MAIN File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 24
-    Info (12023): Found entity 1: SYNC File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 6
+    Info (12022): Found design unit 1: SYNC-MAIN File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 24
+    Info (12023): Found entity 1: SYNC File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 6
 Info (12021): Found 2 design units, including 0 entities, in source file pcg.vhd
-    Info (12022): Found design unit 1: MY File: C:/PC1/VGA-master/VGA/pcg.vhd Line: 5
-    Info (12022): Found design unit 2: MY-body File: C:/PC1/VGA-master/VGA/pcg.vhd Line: 9
+    Info (12022): Found design unit 1: MY File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pcg.vhd Line: 5
+    Info (12022): Found design unit 2: MY-body File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pcg.vhd Line: 9
 Info (12127): Elaborating entity "VGA" for the top level hierarchy
-Warning (10541): VHDL Signal Declaration warning at VGA.vhd(23): used implicit default value for signal "RESET" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 23
-Info (12128): Elaborating entity "pll" for hierarchy "pll:C" File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 52
-Info (12128): Elaborating entity "pll_altpll_0" for hierarchy "pll:C|pll_altpll_0:altpll_0" File: C:/PC1/VGA-master/VGA/pll/synthesis/pll.vhd Line: 45
-Info (12128): Elaborating entity "pll_altpll_0_stdsync_sv6" for hierarchy "pll:C|pll_altpll_0:altpll_0|pll_altpll_0_stdsync_sv6:stdsync2" File: C:/PC1/VGA-master/VGA/pll/synthesis/submodules/pll_altpll_0.v Line: 276
-Info (12128): Elaborating entity "pll_altpll_0_dffpipe_l2c" for hierarchy "pll:C|pll_altpll_0:altpll_0|pll_altpll_0_stdsync_sv6:stdsync2|pll_altpll_0_dffpipe_l2c:dffpipe3" File: C:/PC1/VGA-master/VGA/pll/synthesis/submodules/pll_altpll_0.v Line: 116
-Info (12128): Elaborating entity "pll_altpll_0_altpll_3742" for hierarchy "pll:C|pll_altpll_0:altpll_0|pll_altpll_0_altpll_3742:sd1" File: C:/PC1/VGA-master/VGA/pll/synthesis/submodules/pll_altpll_0.v Line: 282
-Info (12128): Elaborating entity "SYNC" for hierarchy "SYNC:C1" File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 53
-Warning (10036): Verilog HDL or VHDL warning at Vhdl2.vhd(26): object "RGB" assigned a value but never read File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 26
-Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(150): signal "f2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 150
-Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(151): signal "hex0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 151
-Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(152): signal "hex1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 152
-Warning (10631): VHDL Process Statement warning at Vhdl2.vhd(84): inferring latch(es) for signal or variable "hex01", which holds its previous value in one or more paths through the process File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(168): signal "f1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 168
-Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(169): signal "dataint" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 169
-Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(170): signal "dataint" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 170
-Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(173): signal "f1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 173
-Warning (10631): VHDL Process Statement warning at Vhdl2.vhd(159): inferring latch(es) for signal or variable "dataint", which holds its previous value in one or more paths through the process File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Warning (10631): VHDL Process Statement warning at Vhdl2.vhd(159): inferring latch(es) for signal or variable "hex1", which holds its previous value in one or more paths through the process File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Warning (10631): VHDL Process Statement warning at Vhdl2.vhd(159): inferring latch(es) for signal or variable "hex0", which holds its previous value in one or more paths through the process File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Warning (10631): VHDL Process Statement warning at Vhdl2.vhd(159): inferring latch(es) for signal or variable "f2", which holds its previous value in one or more paths through the process File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Warning (10631): VHDL Process Statement warning at Vhdl2.vhd(159): inferring latch(es) for signal or variable "f1", which holds its previous value in one or more paths through the process File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "f1" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "f2" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[0]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[1]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[2]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[3]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[4]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[5]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[6]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[7]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[8]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[9]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[10]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[11]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[12]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[13]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[14]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[15]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[16]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[17]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[18]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[19]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[20]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[21]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[22]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[23]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[24]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[25]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[26]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[27]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[28]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[29]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[30]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex0[31]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[0]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[1]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[2]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[3]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[4]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[5]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[6]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[7]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[8]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[9]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[10]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[11]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[12]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[13]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[14]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[15]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[16]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[17]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[18]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[19]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[20]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[21]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[22]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[23]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[24]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[25]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[26]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[27]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[28]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[29]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[30]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex1[31]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[0]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[1]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[2]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[3]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[4]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[5]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[6]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[7]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[8]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[9]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[10]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[11]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[12]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[13]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[14]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[15]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[16]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[17]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[18]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[19]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[20]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[21]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[22]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[23]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[24]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[25]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[26]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[27]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[28]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[29]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[30]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "dataint[31]" at Vhdl2.vhd(159) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (10041): Inferred latch for "hex01[0]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[1]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[2]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[3]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[4]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[5]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[6]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[7]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[8]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[9]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[10]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[11]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[12]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[13]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[14]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[15]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[16]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[17]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[18]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[19]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[20]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[21]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[22]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[23]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[24]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[25]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[26]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[27]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[28]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[29]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[30]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
-Info (10041): Inferred latch for "hex01[31]" at Vhdl2.vhd(84) File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 84
+Warning (10541): VHDL Signal Declaration warning at VGA.vhd(23): used implicit default value for signal "RESET" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 23
+Info (12128): Elaborating entity "pll" for hierarchy "pll:C" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 52
+Info (12128): Elaborating entity "pll_altpll_0" for hierarchy "pll:C|pll_altpll_0:altpll_0" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/pll.vhd Line: 45
+Info (12128): Elaborating entity "pll_altpll_0_stdsync_sv6" for hierarchy "pll:C|pll_altpll_0:altpll_0|pll_altpll_0_stdsync_sv6:stdsync2" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/submodules/pll_altpll_0.v Line: 276
+Info (12128): Elaborating entity "pll_altpll_0_dffpipe_l2c" for hierarchy "pll:C|pll_altpll_0:altpll_0|pll_altpll_0_stdsync_sv6:stdsync2|pll_altpll_0_dffpipe_l2c:dffpipe3" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/submodules/pll_altpll_0.v Line: 116
+Info (12128): Elaborating entity "pll_altpll_0_altpll_3742" for hierarchy "pll:C|pll_altpll_0:altpll_0|pll_altpll_0_altpll_3742:sd1" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/submodules/pll_altpll_0.v Line: 282
+Info (12128): Elaborating entity "SYNC" for hierarchy "SYNC:C1" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 53
+Warning (10036): Verilog HDL or VHDL warning at Vhdl2.vhd(26): object "RGB" assigned a value but never read File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 26
+Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(148): signal "f2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 148
+Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(149): signal "hex0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 149
+Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(150): signal "hex1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 150
+Warning (10631): VHDL Process Statement warning at Vhdl2.vhd(84): inferring latch(es) for signal or variable "hex01", which holds its previous value in one or more paths through the process File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(166): signal "f1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 166
+Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(167): signal "dataint" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 167
+Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(168): signal "dataint" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 168
+Warning (10492): VHDL Process Statement warning at Vhdl2.vhd(171): signal "f1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 171
+Warning (10631): VHDL Process Statement warning at Vhdl2.vhd(157): inferring latch(es) for signal or variable "dataint", which holds its previous value in one or more paths through the process File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Warning (10631): VHDL Process Statement warning at Vhdl2.vhd(157): inferring latch(es) for signal or variable "hex1", which holds its previous value in one or more paths through the process File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Warning (10631): VHDL Process Statement warning at Vhdl2.vhd(157): inferring latch(es) for signal or variable "hex0", which holds its previous value in one or more paths through the process File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Warning (10631): VHDL Process Statement warning at Vhdl2.vhd(157): inferring latch(es) for signal or variable "f2", which holds its previous value in one or more paths through the process File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Warning (10631): VHDL Process Statement warning at Vhdl2.vhd(157): inferring latch(es) for signal or variable "f1", which holds its previous value in one or more paths through the process File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "f1" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "f2" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[0]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[1]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[2]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[3]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[4]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[5]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[6]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[7]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[8]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[9]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[10]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[11]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[12]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[13]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[14]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[15]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[16]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[17]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[18]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[19]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[20]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[21]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[22]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[23]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[24]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[25]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[26]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[27]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[28]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[29]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[30]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex0[31]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[0]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[1]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[2]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[3]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[4]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[5]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[6]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[7]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[8]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[9]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[10]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[11]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[12]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[13]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[14]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[15]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[16]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[17]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[18]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[19]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[20]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[21]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[22]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[23]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[24]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[25]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[26]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[27]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[28]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[29]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[30]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex1[31]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[0]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[1]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[2]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[3]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[4]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[5]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[6]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[7]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[8]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[9]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[10]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[11]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[12]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[13]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[14]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[15]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[16]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[17]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[18]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[19]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[20]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[21]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[22]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[23]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[24]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[25]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[26]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[27]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[28]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[29]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[30]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "dataint[31]" at Vhdl2.vhd(157) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (10041): Inferred latch for "hex01[0]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[1]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[2]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[3]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[4]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[5]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[6]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[7]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[8]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[9]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[10]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[11]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[12]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[13]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[14]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[15]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[16]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[17]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[18]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[19]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[20]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[21]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[22]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[23]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[24]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[25]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[26]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[27]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[28]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[29]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[30]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
+Info (10041): Inferred latch for "hex01[31]" at Vhdl2.vhd(84) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 84
 Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|hex1[29]" merged with LATCH primitive "SYNC:C1|hex1[28]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|hex1[30]" merged with LATCH primitive "SYNC:C1|hex1[28]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|hex1[31]" merged with LATCH primitive "SYNC:C1|hex1[28]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[7]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[8]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[9]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[10]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[11]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[12]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[13]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[14]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[15]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[16]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[17]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[18]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[19]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[20]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[21]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[22]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[23]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[24]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[25]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[26]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[27]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[28]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[29]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[30]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Warning (13012): Latch SYNC:C1|f2 has unsafe behavior File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 42
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SYNC:C1|f1 File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 41
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|hex1[29]" merged with LATCH primitive "SYNC:C1|hex1[28]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|hex1[30]" merged with LATCH primitive "SYNC:C1|hex1[28]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|hex1[31]" merged with LATCH primitive "SYNC:C1|hex1[28]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[7]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[8]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[9]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[10]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[11]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[12]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[13]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[14]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[15]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[16]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[17]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[18]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[19]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[20]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[21]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[22]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[23]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[24]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[25]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[26]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[27]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[28]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[29]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+    Info (13026): Duplicate LATCH primitive "SYNC:C1|dataint[30]" merged with LATCH primitive "SYNC:C1|dataint[31]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Warning (13012): Latch SYNC:C1|f2 has unsafe behavior File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 42
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SYNC:C1|f1 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 41
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 6 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "SW[0]" File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 15
-    Warning (15610): No output dependent on input pin "SW[1]" File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 15
-    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 16
-    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 16
-    Warning (15610): No output dependent on input pin "KEY[2]" File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 16
-    Warning (15610): No output dependent on input pin "KEY[3]" File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 16
+    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 15
+    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 15
+    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 16
+    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 16
+    Warning (15610): No output dependent on input pin "KEY[2]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 16
+    Warning (15610): No output dependent on input pin "KEY[3]" File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 16
 Info (21057): Implemented 439 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 9 input pins
     Info (21059): Implemented 41 output pins
     Info (21061): Implemented 388 logic cells
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
-    Info: Peak virtual memory: 4813 megabytes
-    Info: Processing ended: Fri Mar 22 18:00:04 2019
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:26
+    Info: Peak virtual memory: 4809 megabytes
+    Info: Processing ended: Sat Mar 23 16:34:13 2019
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:35
 
 

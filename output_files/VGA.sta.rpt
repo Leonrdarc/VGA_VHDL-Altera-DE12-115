@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for VGA
-Fri Mar 22 18:00:33 2019
+Sat Mar 23 16:34:45 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -122,16 +122,14 @@ refer to the applicable agreement for further details.
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
 ; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.14        ;
-; Maximum used               ; 4           ;
+; Average used               ; 1.07        ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   5.3%      ;
-;     Processor 3            ;   4.7%      ;
-;     Processor 4            ;   4.4%      ;
+;     Processor 2            ;   7.2%      ;
 +----------------------------+-------------+
 
 
@@ -678,16 +676,16 @@ HTML report is unavailable in plain text report export.
 ; 0.440 ; SYNC:C1|scan_code[1] ; SYNC:C1|scan_code[1] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.669      ;
 ; 0.440 ; SYNC:C1|scan_code[2] ; SYNC:C1|scan_code[2] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.669      ;
 ; 0.440 ; SYNC:C1|scan_code[3] ; SYNC:C1|scan_code[3] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.669      ;
-; 0.440 ; SYNC:C1|scan_code[5] ; SYNC:C1|scan_code[5] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.669      ;
 ; 0.440 ; SYNC:C1|scan_code[8] ; SYNC:C1|scan_code[8] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.669      ;
+; 0.440 ; SYNC:C1|scan_code[5] ; SYNC:C1|scan_code[5] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.669      ;
 ; 0.440 ; SYNC:C1|scan_code[6] ; SYNC:C1|scan_code[6] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.669      ;
 ; 0.440 ; SYNC:C1|scan_code[7] ; SYNC:C1|scan_code[7] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.669      ;
 ; 0.680 ; SYNC:C1|count[5]     ; SYNC:C1|count[5]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.909      ;
 ; 0.681 ; SYNC:C1|count[4]     ; SYNC:C1|count[4]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.910      ;
 ; 0.693 ; SYNC:C1|count[6]     ; SYNC:C1|count[6]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.922      ;
 ; 0.693 ; SYNC:C1|count[22]    ; SYNC:C1|count[22]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.922      ;
-; 0.694 ; SYNC:C1|count[2]     ; SYNC:C1|count[2]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.923      ;
 ; 0.694 ; SYNC:C1|count[3]     ; SYNC:C1|count[3]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.923      ;
+; 0.694 ; SYNC:C1|count[2]     ; SYNC:C1|count[2]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.923      ;
 ; 0.694 ; SYNC:C1|count[13]    ; SYNC:C1|count[13]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.923      ;
 ; 0.694 ; SYNC:C1|count[14]    ; SYNC:C1|count[14]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.923      ;
 ; 0.694 ; SYNC:C1|count[15]    ; SYNC:C1|count[15]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.923      ;
@@ -697,21 +695,21 @@ HTML report is unavailable in plain text report export.
 ; 0.695 ; SYNC:C1|count[11]    ; SYNC:C1|count[11]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.924      ;
 ; 0.695 ; SYNC:C1|count[12]    ; SYNC:C1|count[12]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.924      ;
 ; 0.695 ; SYNC:C1|count[18]    ; SYNC:C1|count[18]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.924      ;
-; 0.695 ; SYNC:C1|count[21]    ; SYNC:C1|count[21]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.924      ;
 ; 0.695 ; SYNC:C1|count[19]    ; SYNC:C1|count[19]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.924      ;
 ; 0.695 ; SYNC:C1|count[20]    ; SYNC:C1|count[20]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.924      ;
+; 0.695 ; SYNC:C1|count[21]    ; SYNC:C1|count[21]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.924      ;
 ; 0.695 ; SYNC:C1|count[29]    ; SYNC:C1|count[29]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.924      ;
 ; 0.696 ; SYNC:C1|count[24]    ; SYNC:C1|count[24]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.925      ;
 ; 0.696 ; SYNC:C1|count[26]    ; SYNC:C1|count[26]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.925      ;
+; 0.696 ; SYNC:C1|count[27]    ; SYNC:C1|count[27]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.925      ;
 ; 0.696 ; SYNC:C1|count[28]    ; SYNC:C1|count[28]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.925      ;
 ; 0.696 ; SYNC:C1|count[30]    ; SYNC:C1|count[30]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.925      ;
-; 0.696 ; SYNC:C1|count[27]    ; SYNC:C1|count[27]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.925      ;
 ; 0.697 ; SYNC:C1|count[17]    ; SYNC:C1|count[17]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.926      ;
 ; 0.697 ; SYNC:C1|count[31]    ; SYNC:C1|count[31]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.926      ;
 ; 0.698 ; SYNC:C1|count[7]     ; SYNC:C1|count[7]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.927      ;
 ; 0.698 ; SYNC:C1|count[9]     ; SYNC:C1|count[9]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.927      ;
-; 0.699 ; SYNC:C1|count[25]    ; SYNC:C1|count[25]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.928      ;
 ; 0.699 ; SYNC:C1|count[23]    ; SYNC:C1|count[23]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.928      ;
+; 0.699 ; SYNC:C1|count[25]    ; SYNC:C1|count[25]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.043      ; 0.928      ;
 ; 0.986 ; SYNC:C1|count[15]    ; SYNC:C1|count[16]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.078      ; 1.250      ;
 ; 0.991 ; SYNC:C1|count[15]    ; SYNC:C1|count[17]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.078      ; 1.255      ;
 ; 0.992 ; SYNC:C1|count[4]     ; SYNC:C1|count[5]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.227      ;
@@ -734,8 +732,8 @@ HTML report is unavailable in plain text report export.
 ; 1.015 ; SYNC:C1|count[3]     ; SYNC:C1|count[4]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.250      ;
 ; 1.015 ; SYNC:C1|count[13]    ; SYNC:C1|count[14]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.250      ;
 ; 1.016 ; SYNC:C1|count[11]    ; SYNC:C1|count[12]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.251      ;
-; 1.016 ; SYNC:C1|count[21]    ; SYNC:C1|count[22]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.251      ;
 ; 1.016 ; SYNC:C1|count[19]    ; SYNC:C1|count[20]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.251      ;
+; 1.016 ; SYNC:C1|count[21]    ; SYNC:C1|count[22]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.251      ;
 ; 1.016 ; SYNC:C1|count[29]    ; SYNC:C1|count[30]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.251      ;
 ; 1.017 ; SYNC:C1|count[27]    ; SYNC:C1|count[28]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.252      ;
 ; 1.018 ; SYNC:C1|count[17]    ; SYNC:C1|count[18]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.253      ;
@@ -743,18 +741,18 @@ HTML report is unavailable in plain text report export.
 ; 1.019 ; SYNC:C1|count[9]     ; SYNC:C1|count[10]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.254      ;
 ; 1.020 ; SYNC:C1|count[3]     ; SYNC:C1|count[5]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.255      ;
 ; 1.020 ; SYNC:C1|count[13]    ; SYNC:C1|count[15]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.255      ;
-; 1.020 ; SYNC:C1|count[25]    ; SYNC:C1|count[26]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.255      ;
 ; 1.020 ; SYNC:C1|count[23]    ; SYNC:C1|count[24]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.255      ;
+; 1.020 ; SYNC:C1|count[25]    ; SYNC:C1|count[26]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.255      ;
 ; 1.021 ; SYNC:C1|count[11]    ; SYNC:C1|count[13]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.256      ;
-; 1.021 ; SYNC:C1|count[21]    ; SYNC:C1|count[23]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.256      ;
 ; 1.021 ; SYNC:C1|count[19]    ; SYNC:C1|count[21]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.256      ;
+; 1.021 ; SYNC:C1|count[21]    ; SYNC:C1|count[23]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.256      ;
 ; 1.021 ; SYNC:C1|count[29]    ; SYNC:C1|count[31]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.256      ;
 ; 1.022 ; SYNC:C1|count[27]    ; SYNC:C1|count[29]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.257      ;
 ; 1.023 ; SYNC:C1|count[17]    ; SYNC:C1|count[19]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.258      ;
 ; 1.024 ; SYNC:C1|count[7]     ; SYNC:C1|count[9]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.259      ;
 ; 1.024 ; SYNC:C1|count[9]     ; SYNC:C1|count[11]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.259      ;
-; 1.025 ; SYNC:C1|count[25]    ; SYNC:C1|count[27]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.260      ;
 ; 1.025 ; SYNC:C1|count[23]    ; SYNC:C1|count[25]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.260      ;
+; 1.025 ; SYNC:C1|count[25]    ; SYNC:C1|count[27]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.049      ; 1.260      ;
 ; 1.097 ; SYNC:C1|count[14]    ; SYNC:C1|count[16]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.078      ; 1.361      ;
 ; 1.102 ; SYNC:C1|count[14]    ; SYNC:C1|count[17]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.078      ; 1.366      ;
 ; 1.112 ; SYNC:C1|count[13]    ; SYNC:C1|count[16]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.078      ; 1.376      ;
@@ -1643,13 +1641,13 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +-------+----------------------+----------------------+--------------+-------------+--------------+------------+------------+
 ; Slack ; From Node            ; To Node              ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +-------+----------------------+----------------------+--------------+-------------+--------------+------------+------------+
-; 0.387 ; SYNC:C1|scan_code[1] ; SYNC:C1|scan_code[1] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.597      ;
-; 0.387 ; SYNC:C1|scan_code[3] ; SYNC:C1|scan_code[3] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.597      ;
-; 0.387 ; SYNC:C1|scan_code[2] ; SYNC:C1|scan_code[2] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.597      ;
 ; 0.387 ; SYNC:C1|scan_code[4] ; SYNC:C1|scan_code[4] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.597      ;
-; 0.387 ; SYNC:C1|scan_code[6] ; SYNC:C1|scan_code[6] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.597      ;
+; 0.387 ; SYNC:C1|scan_code[1] ; SYNC:C1|scan_code[1] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.597      ;
+; 0.387 ; SYNC:C1|scan_code[2] ; SYNC:C1|scan_code[2] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.597      ;
+; 0.387 ; SYNC:C1|scan_code[3] ; SYNC:C1|scan_code[3] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.597      ;
 ; 0.387 ; SYNC:C1|scan_code[8] ; SYNC:C1|scan_code[8] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.597      ;
 ; 0.387 ; SYNC:C1|scan_code[5] ; SYNC:C1|scan_code[5] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.597      ;
+; 0.387 ; SYNC:C1|scan_code[6] ; SYNC:C1|scan_code[6] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.597      ;
 ; 0.387 ; SYNC:C1|scan_code[7] ; SYNC:C1|scan_code[7] ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.597      ;
 ; 0.620 ; SYNC:C1|count[5]     ; SYNC:C1|count[5]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.830      ;
 ; 0.622 ; SYNC:C1|count[4]     ; SYNC:C1|count[4]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.832      ;
@@ -1658,9 +1656,9 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 ; 0.632 ; SYNC:C1|count[13]    ; SYNC:C1|count[13]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.842      ;
 ; 0.632 ; SYNC:C1|count[15]    ; SYNC:C1|count[15]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.842      ;
 ; 0.633 ; SYNC:C1|count[11]    ; SYNC:C1|count[11]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.843      ;
+; 0.633 ; SYNC:C1|count[19]    ; SYNC:C1|count[19]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.843      ;
 ; 0.633 ; SYNC:C1|count[21]    ; SYNC:C1|count[21]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.843      ;
 ; 0.633 ; SYNC:C1|count[22]    ; SYNC:C1|count[22]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.843      ;
-; 0.633 ; SYNC:C1|count[19]    ; SYNC:C1|count[19]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.843      ;
 ; 0.633 ; SYNC:C1|count[29]    ; SYNC:C1|count[29]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.843      ;
 ; 0.634 ; SYNC:C1|count[2]     ; SYNC:C1|count[2]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.844      ;
 ; 0.634 ; SYNC:C1|count[14]    ; SYNC:C1|count[14]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.039      ; 0.844      ;
@@ -1699,13 +1697,13 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 ; 0.918 ; SYNC:C1|count[7]     ; SYNC:C1|count[8]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.046      ; 1.135      ;
 ; 0.918 ; SYNC:C1|count[9]     ; SYNC:C1|count[10]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.046      ; 1.135      ;
 ; 0.918 ; SYNC:C1|count[16]    ; SYNC:C1|count[17]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.131      ;
-; 0.918 ; SYNC:C1|count[21]    ; SYNC:C1|count[22]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.131      ;
 ; 0.918 ; SYNC:C1|count[19]    ; SYNC:C1|count[20]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.131      ;
+; 0.918 ; SYNC:C1|count[21]    ; SYNC:C1|count[22]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.131      ;
 ; 0.918 ; SYNC:C1|count[29]    ; SYNC:C1|count[30]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.131      ;
 ; 0.919 ; SYNC:C1|count[18]    ; SYNC:C1|count[19]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.132      ;
 ; 0.919 ; SYNC:C1|count[20]    ; SYNC:C1|count[21]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.132      ;
-; 0.919 ; SYNC:C1|count[30]    ; SYNC:C1|count[31]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.132      ;
 ; 0.919 ; SYNC:C1|count[27]    ; SYNC:C1|count[28]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.132      ;
+; 0.919 ; SYNC:C1|count[30]    ; SYNC:C1|count[31]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.132      ;
 ; 0.920 ; SYNC:C1|count[24]    ; SYNC:C1|count[25]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.133      ;
 ; 0.920 ; SYNC:C1|count[26]    ; SYNC:C1|count[27]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.133      ;
 ; 0.920 ; SYNC:C1|count[28]    ; SYNC:C1|count[29]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.133      ;
@@ -1717,8 +1715,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 ; 0.925 ; SYNC:C1|count[11]    ; SYNC:C1|count[13]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.046      ; 1.142      ;
 ; 0.929 ; SYNC:C1|count[7]     ; SYNC:C1|count[9]     ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.046      ; 1.146      ;
 ; 0.929 ; SYNC:C1|count[9]     ; SYNC:C1|count[11]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.046      ; 1.146      ;
-; 0.929 ; SYNC:C1|count[21]    ; SYNC:C1|count[23]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.142      ;
 ; 0.929 ; SYNC:C1|count[19]    ; SYNC:C1|count[21]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.142      ;
+; 0.929 ; SYNC:C1|count[21]    ; SYNC:C1|count[23]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.142      ;
 ; 0.929 ; SYNC:C1|count[29]    ; SYNC:C1|count[31]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.142      ;
 ; 0.930 ; SYNC:C1|count[27]    ; SYNC:C1|count[29]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.143      ;
 ; 0.932 ; SYNC:C1|count[17]    ; SYNC:C1|count[19]    ; VGA_clock    ; VGA_clock   ; 0.000        ; 0.042      ; 1.145      ;
@@ -2601,13 +2599,13 @@ No synchronizer chains to report.
 ; Slack ; From Node            ; To Node              ; Launch Clock     ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +-------+----------------------+----------------------+------------------+-------------+--------------+------------+------------+
 ; 0.199 ; SYNC:C1|scan_code[4] ; SYNC:C1|scan_code[4] ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.307      ;
+; 0.199 ; SYNC:C1|scan_code[1] ; SYNC:C1|scan_code[1] ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.307      ;
 ; 0.199 ; SYNC:C1|scan_code[2] ; SYNC:C1|scan_code[2] ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.307      ;
 ; 0.199 ; SYNC:C1|scan_code[3] ; SYNC:C1|scan_code[3] ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.307      ;
 ; 0.199 ; SYNC:C1|scan_code[8] ; SYNC:C1|scan_code[8] ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.307      ;
 ; 0.199 ; SYNC:C1|scan_code[5] ; SYNC:C1|scan_code[5] ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.307      ;
 ; 0.199 ; SYNC:C1|scan_code[6] ; SYNC:C1|scan_code[6] ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.307      ;
 ; 0.199 ; SYNC:C1|scan_code[7] ; SYNC:C1|scan_code[7] ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.307      ;
-; 0.199 ; SYNC:C1|scan_code[1] ; SYNC:C1|scan_code[1] ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.307      ;
 ; 0.310 ; SYNC:C1|count[5]     ; SYNC:C1|count[5]     ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.418      ;
 ; 0.311 ; SYNC:C1|count[4]     ; SYNC:C1|count[4]     ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.419      ;
 ; 0.316 ; SYNC:C1|count[6]     ; SYNC:C1|count[6]     ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.424      ;
@@ -2626,10 +2624,10 @@ No synchronizer chains to report.
 ; 0.318 ; SYNC:C1|count[12]    ; SYNC:C1|count[12]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.426      ;
 ; 0.318 ; SYNC:C1|count[17]    ; SYNC:C1|count[17]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.426      ;
 ; 0.318 ; SYNC:C1|count[18]    ; SYNC:C1|count[18]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.426      ;
-; 0.318 ; SYNC:C1|count[21]    ; SYNC:C1|count[21]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.426      ;
-; 0.318 ; SYNC:C1|count[24]    ; SYNC:C1|count[24]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.426      ;
 ; 0.318 ; SYNC:C1|count[19]    ; SYNC:C1|count[19]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.426      ;
 ; 0.318 ; SYNC:C1|count[20]    ; SYNC:C1|count[20]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.426      ;
+; 0.318 ; SYNC:C1|count[21]    ; SYNC:C1|count[21]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.426      ;
+; 0.318 ; SYNC:C1|count[24]    ; SYNC:C1|count[24]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.426      ;
 ; 0.318 ; SYNC:C1|count[27]    ; SYNC:C1|count[27]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.426      ;
 ; 0.318 ; SYNC:C1|count[29]    ; SYNC:C1|count[29]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.426      ;
 ; 0.318 ; SYNC:C1|count[30]    ; SYNC:C1|count[30]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.024      ; 0.426      ;
@@ -2652,8 +2650,8 @@ No synchronizer chains to report.
 ; 0.462 ; SYNC:C1|count[22]    ; SYNC:C1|count[23]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.574      ;
 ; 0.463 ; SYNC:C1|count[5]     ; SYNC:C1|count[6]     ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.029      ; 0.576      ;
 ; 0.463 ; SYNC:C1|count[18]    ; SYNC:C1|count[19]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.575      ;
-; 0.463 ; SYNC:C1|count[24]    ; SYNC:C1|count[25]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.575      ;
 ; 0.463 ; SYNC:C1|count[20]    ; SYNC:C1|count[21]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.575      ;
+; 0.463 ; SYNC:C1|count[24]    ; SYNC:C1|count[25]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.575      ;
 ; 0.463 ; SYNC:C1|count[30]    ; SYNC:C1|count[31]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.575      ;
 ; 0.464 ; SYNC:C1|count[26]    ; SYNC:C1|count[27]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.576      ;
 ; 0.464 ; SYNC:C1|count[28]    ; SYNC:C1|count[29]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.576      ;
@@ -2664,8 +2662,8 @@ No synchronizer chains to report.
 ; 0.471 ; SYNC:C1|count[11]    ; SYNC:C1|count[12]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.029      ; 0.584      ;
 ; 0.472 ; SYNC:C1|count[9]     ; SYNC:C1|count[10]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.029      ; 0.585      ;
 ; 0.472 ; SYNC:C1|count[17]    ; SYNC:C1|count[18]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.584      ;
-; 0.472 ; SYNC:C1|count[21]    ; SYNC:C1|count[22]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.584      ;
 ; 0.472 ; SYNC:C1|count[19]    ; SYNC:C1|count[20]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.584      ;
+; 0.472 ; SYNC:C1|count[21]    ; SYNC:C1|count[22]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.584      ;
 ; 0.472 ; SYNC:C1|count[27]    ; SYNC:C1|count[28]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.584      ;
 ; 0.472 ; SYNC:C1|count[29]    ; SYNC:C1|count[30]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.584      ;
 ; 0.473 ; SYNC:C1|count[3]     ; SYNC:C1|count[5]     ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.029      ; 0.586      ;
@@ -2676,8 +2674,8 @@ No synchronizer chains to report.
 ; 0.474 ; SYNC:C1|count[11]    ; SYNC:C1|count[13]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.029      ; 0.587      ;
 ; 0.475 ; SYNC:C1|count[9]     ; SYNC:C1|count[11]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.029      ; 0.588      ;
 ; 0.475 ; SYNC:C1|count[17]    ; SYNC:C1|count[19]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.587      ;
-; 0.475 ; SYNC:C1|count[21]    ; SYNC:C1|count[23]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.587      ;
 ; 0.475 ; SYNC:C1|count[19]    ; SYNC:C1|count[21]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.587      ;
+; 0.475 ; SYNC:C1|count[21]    ; SYNC:C1|count[23]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.587      ;
 ; 0.475 ; SYNC:C1|count[27]    ; SYNC:C1|count[29]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.587      ;
 ; 0.475 ; SYNC:C1|count[29]    ; SYNC:C1|count[31]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.587      ;
 ; 0.476 ; SYNC:C1|count[23]    ; SYNC:C1|count[25]    ; VGA_clock        ; VGA_clock   ; 0.000        ; 0.028      ; 0.588      ;
@@ -3510,11 +3508,11 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Mar 22 18:00:29 2019
+    Info: Processing started: Sat Mar 23 16:34:41 2019
 Info: Command: quartus_sta VGA -c VGA
 Info: qsta_default_script.tcl version: #3
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
 Warning (335093): TimeQuest Timing Analyzer is analyzing 46 combinational loops as latches. For more details, run the Check Timing command in the TimeQuest Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
@@ -3528,7 +3526,7 @@ Info (332105): Deriving Clocks
     Info (332105): create_clock -period 1.000 -name VGA_clock VGA_clock
     Info (332105): create_clock -period 1.000 -name SYNC:C1|count[0] SYNC:C1|count[0]
     Info (332105): create_clock -period 1.000 -name SYNC:C1|f2 SYNC:C1|f2
-Warning (332125): Found combinational loop of 7 nodes File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 41
+Warning (332125): Found combinational loop of 7 nodes File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 41
     Warning (332126): Node "C1|process_1~0|combout"
     Warning (332126): Node "C1|f1~0|dataa"
     Warning (332126): Node "C1|f1~0|combout"
@@ -3651,8 +3649,8 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 14 warnings
-    Info: Peak virtual memory: 4865 megabytes
-    Info: Processing ended: Fri Mar 22 18:00:33 2019
+    Info: Peak virtual memory: 4836 megabytes
+    Info: Processing ended: Sat Mar 23 16:34:45 2019
     Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:04
 

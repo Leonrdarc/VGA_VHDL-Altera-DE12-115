@@ -1,5 +1,5 @@
 Flow report for VGA
-Fri Mar 22 18:00:36 2019
+Sat Mar 23 16:34:49 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Mar 22 18:00:36 2019       ;
+; Flow Status                        ; Successful - Sat Mar 23 16:34:49 2019       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; VGA                                         ;
 ; Top-level Entity Name              ; VGA                                         ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/22/2019 17:59:51 ;
+; Start date & time ; 03/23/2019 16:33:57 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; VGA                 ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+-------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                                 ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+-------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 1097076006213.155329559011732                         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 104443368047468.155337683702468                       ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                                  ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                                ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                    ; --            ; --          ; --             ;
@@ -89,7 +89,7 @@ refer to the applicable agreement for further details.
 ; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                 ; --            ; --          ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                                          ; --            ; --          ; --             ;
 ; SLD_FILE                            ; pll/synthesis/pll.debuginfo                           ; --            ; --          ; --             ;
-; SLD_INFO                            ; QSYS_NAME pll HAS_SOPCINFO 1 GENERATION_ID 1553203378 ; --            ; pll         ; --             ;
+; SLD_INFO                            ; QSYS_NAME pll HAS_SOPCINFO 1 GENERATION_ID 1553360807 ; --            ; pll         ; --             ;
 ; SOPCINFO_FILE                       ; pll/synthesis/../../pll.sopcinfo                      ; --            ; --          ; --             ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                    ; --            ; --          ; --             ;
 +-------------------------------------+-------------------------------------------------------+---------------+-------------+----------------+
@@ -100,12 +100,12 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:13     ; 1.0                     ; 4813 MB             ; 00:00:25                           ;
-; Fitter                    ; 00:00:19     ; 1.0                     ; 5748 MB             ; 00:00:26                           ;
-; Assembler                 ; 00:00:03     ; 1.0                     ; 4701 MB             ; 00:00:04                           ;
-; TimeQuest Timing Analyzer ; 00:00:04     ; 1.1                     ; 4865 MB             ; 00:00:04                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4676 MB             ; 00:00:02                           ;
-; Total                     ; 00:00:41     ; --                      ; --                  ; 00:01:01                           ;
+; Analysis & Synthesis      ; 00:00:17     ; 1.0                     ; 4809 MB             ; 00:00:35                           ;
+; Fitter                    ; 00:00:21     ; 1.0                     ; 5449 MB             ; 00:00:28                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 4698 MB             ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.1                     ; 4836 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 4673 MB             ; 00:00:02                           ;
+; Total                     ; 00:00:48     ; --                      ; --                  ; 00:01:12                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -114,11 +114,11 @@ refer to the applicable agreement for further details.
 +---------------------------+------------------+------------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +---------------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-361GGVT  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter                    ; DESKTOP-361GGVT  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler                 ; DESKTOP-361GGVT  ; Windows 10 ; 10.0       ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-361GGVT  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-361GGVT  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis      ; DESKTOP-5NPTPSN  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; DESKTOP-5NPTPSN  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; DESKTOP-5NPTPSN  ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-5NPTPSN  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-5NPTPSN  ; Windows 10 ; 10.0       ; x86_64         ;
 +---------------------------+------------------+------------+------------+----------------+
 
 

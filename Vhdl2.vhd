@@ -84,7 +84,7 @@ BEGIN
  PROCESS(CLK)
  BEGIN
 IF(CLK'EVENT AND CLK='1')THEN
-SQ(add,HPOS,VPOS,SQ_X1,SQ_Y1,RGB,DRAW);
+	SQ(add,HPOS,VPOS,SQ_X1,SQ_Y1,RGB,DRAW);
       IF(DRAW='1')THEN
 			R<=(others=>'1');
 			G<=(others=>'1');
@@ -106,17 +106,15 @@ SQ(add,HPOS,VPOS,SQ_X1,SQ_Y1,RGB,DRAW);
 			  ELSE
 				  VPOS<=0; 
 						if(hex11=1 and hex01 = 12)then
-							SQ_Y1 <= SQ_Y1 - 1;
+								SQ_Y1 <= SQ_Y1 - 1;
 						else
 							if(hex11= 1 and hex01 = 10 )then
-								SQ_Y1 <= SQ_Y1 + 1;
+									SQ_Y1 <= SQ_Y1 + 1;						
 							else
 								if(hex11= 1 and hex01 = 11 ) then
-									SQ_X1 <= SQ_X1 - 1;
-								else
-									if(hex11= 2 and hex01 = 3 ) then
+										SQ_X1 <= SQ_X1 - 1;								
+								elsif(hex11= 2 and hex01 = 3 ) then
 										SQ_X1 <= SQ_X1 + 1;
-									end if;
 								end if;
 							end if;
 						end if;

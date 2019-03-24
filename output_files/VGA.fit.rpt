@@ -1,5 +1,5 @@
 Fitter report for VGA
-Fri Mar 22 18:00:23 2019
+Sat Mar 23 16:34:35 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -70,7 +70,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Fri Mar 22 18:00:23 2019       ;
+; Fitter Status                      ; Successful - Sat Mar 23 16:34:35 2019       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; VGA                                         ;
 ; Top-level Entity Name              ; VGA                                         ;
@@ -155,16 +155,14 @@ refer to the applicable agreement for further details.
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
 ; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.01        ;
-; Maximum used               ; 4           ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.4%      ;
-;     Processor 3            ;   0.4%      ;
-;     Processor 4            ;   0.4%      ;
 +----------------------------+-------------+
 
 
@@ -340,7 +338,7 @@ refer to the applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/PC1/VGA-master/VGA/output_files/VGA.pin.
+The pin-out file can be found in C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/output_files/VGA.pin.
 
 
 +-----------------------------------------------------------------------+
@@ -2027,12 +2025,12 @@ Note: This table only shows the top 48 path(s) that have the largest delay added
 ; Fitter Messages ;
 +-----------------+
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (119006): Selected device EP4CE115F29C7 for design "VGA"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
-Info (15535): Implemented PLL "pll:C|pll_altpll_0:altpll_0|pll_altpll_0_altpll_3742:sd1|pll7" as Cyclone IV E PLL type File: C:/PC1/VGA-master/VGA/pll/synthesis/submodules/pll_altpll_0.v Line: 150
-    Info (15099): Implementing clock multiplication of 54, clock division of 25, and phase shift of 0 degrees (0 ps) for pll:C|pll_altpll_0:altpll_0|pll_altpll_0_altpll_3742:sd1|wire_pll7_clk[0] port File: C:/PC1/VGA-master/VGA/pll/synthesis/submodules/pll_altpll_0.v Line: 150
+Info (15535): Implemented PLL "pll:C|pll_altpll_0:altpll_0|pll_altpll_0_altpll_3742:sd1|pll7" as Cyclone IV E PLL type File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/submodules/pll_altpll_0.v Line: 150
+    Info (15099): Implementing clock multiplication of 54, clock division of 25, and phase shift of 0 degrees (0 ps) for pll:C|pll_altpll_0:altpll_0|pll_altpll_0_altpll_3742:sd1|wire_pll7_clk[0] port File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/submodules/pll_altpll_0.v Line: 150
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
@@ -2057,7 +2055,7 @@ Warning (335093): TimeQuest Timing Analyzer is analyzing 46 combinational loops 
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'VGA.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained generated clocks found in the design
 Info (332144): No user constrained base clocks found in the design
-Warning (332125): Found combinational loop of 7 nodes File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 41
+Warning (332125): Found combinational loop of 7 nodes File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 41
     Warning (332126): Node "C1|process_1~0|combout"
     Warning (332126): Node "C1|f1~0|dataa"
     Warning (332126): Node "C1|f1~0|combout"
@@ -2070,27 +2068,27 @@ Info (332097): The following timing edges are non-unate.  TimeQuest will assume 
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node pll:C|pll_altpll_0:altpll_0|pll_altpll_0_altpll_3742:sd1|wire_pll7_clk[0] (placed in counter C0 of PLL_1) File: C:/PC1/VGA-master/VGA/pll/synthesis/submodules/pll_altpll_0.v Line: 192
+Info (176353): Automatically promoted node pll:C|pll_altpll_0:altpll_0|pll_altpll_0_altpll_3742:sd1|wire_pll7_clk[0] (placed in counter C0 of PLL_1) File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/submodules/pll_altpll_0.v Line: 192
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G3
-Info (176353): Automatically promoted node SYNC:C1|hex1[1]~2  File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
+Info (176353): Automatically promoted node SYNC:C1|hex1[1]~2  File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
-Info (176353): Automatically promoted node SYNC:C1|Equal8~10  File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 166
-    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
-    Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node SYNC:C1|f2~0 File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 42
-        Info (176357): Destination node SYNC:C1|hex1[1]~2 File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 159
-Info (176353): Automatically promoted node SYNC:C1|f2  File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 42
+Info (176353): Automatically promoted node SYNC:C1|Equal8~10  File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 164
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node SYNC:C1|Equal6~0 File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 126
-        Info (176357): Destination node SYNC:C1|Equal6~1 File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 126
-        Info (176357): Destination node SYNC:C1|Equal6~2 File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 126
-        Info (176357): Destination node SYNC:C1|Equal6~3 File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 126
-        Info (176357): Destination node SYNC:C1|Equal6~9 File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 126
-        Info (176357): Destination node SYNC:C1|Equal6~10 File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 126
-        Info (176357): Destination node SYNC:C1|SQ_X1[10]~1 File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 86
-        Info (176357): Destination node SYNC:C1|Equal6~8 File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 126
-        Info (176357): Destination node SYNC:C1|f2 File: C:/PC1/VGA-master/VGA/Vhdl2.vhd Line: 42
+        Info (176357): Destination node SYNC:C1|f2~0 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 42
+        Info (176357): Destination node SYNC:C1|hex1[1]~2 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 157
+Info (176353): Automatically promoted node SYNC:C1|f2  File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 42
+    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
+    Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
+        Info (176357): Destination node SYNC:C1|Equal6~0 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 124
+        Info (176357): Destination node SYNC:C1|Equal6~1 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 124
+        Info (176357): Destination node SYNC:C1|Equal6~2 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 124
+        Info (176357): Destination node SYNC:C1|Equal6~3 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 124
+        Info (176357): Destination node SYNC:C1|Equal6~9 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 124
+        Info (176357): Destination node SYNC:C1|Equal6~10 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 124
+        Info (176357): Destination node SYNC:C1|SQ_X1[10]~1 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 86
+        Info (176357): Destination node SYNC:C1|Equal6~8 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 124
+        Info (176357): Destination node SYNC:C1|f2 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/Vhdl2.vhd Line: 42
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
@@ -2107,21 +2105,21 @@ Info (176215): I/O bank details before I/O pin placement
         Info (176213): I/O bank number 6 does not use VREF pins and has 3.3V VCCIO pins. 6 total pin(s) used --  52 pins available
         Info (176213): I/O bank number 7 does not use VREF pins and has 3.3V VCCIO pins. 3 total pin(s) used --  69 pins available
         Info (176213): I/O bank number 8 does not use VREF pins and has 3.3V VCCIO pins. 27 total pin(s) used --  44 pins available
-Warning (15064): PLL "pll:C|pll_altpll_0:altpll_0|pll_altpll_0_altpll_3742:sd1|pll7" output port clk[0] feeds output pin "VGACLK~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: C:/PC1/VGA-master/VGA/pll/synthesis/submodules/pll_altpll_0.v Line: 150
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
+Warning (15064): PLL "pll:C|pll_altpll_0:altpll_0|pll_altpll_0_altpll_3742:sd1|pll7" output port clk[0] feeds output pin "VGACLK~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/pll/synthesis/submodules/pll_altpll_0.v Line: 150
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:05
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:07
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 2% of the available device resources in the region that extends from location X23_Y61 to location X33_Y73
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
-Info (11888): Total time spent on timing analysis during the Fitter is 0.52 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.48 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -2129,26 +2127,26 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169177): 9 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin SW[0] uses I/O standard 3.3-V LVTTL at A14 File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 15
-    Info (169178): Pin SW[1] uses I/O standard 3.3-V LVTTL at B14 File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 15
-    Info (169178): Pin KEY[0] uses I/O standard 3.3-V LVTTL at J15 File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 16
-    Info (169178): Pin KEY[1] uses I/O standard 3.3-V LVTTL at E5 File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 16
-    Info (169178): Pin KEY[2] uses I/O standard 3.3-V LVTTL at AH3 File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 16
-    Info (169178): Pin KEY[3] uses I/O standard 3.3-V LVTTL at B3 File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 16
-    Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at Y2 File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 12
-    Info (169178): Pin VGA_clock uses I/O standard 3.3-V LVTTL at G6 File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 8
-    Info (169178): Pin VGA_data uses I/O standard 3.3-V LVTTL at H5 File: C:/PC1/VGA-master/VGA/VGA.vhd Line: 9
-Info (144001): Generated suppressed messages file C:/PC1/VGA-master/VGA/output_files/VGA.fit.smsg
+    Info (169178): Pin SW[0] uses I/O standard 3.3-V LVTTL at A14 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 15
+    Info (169178): Pin SW[1] uses I/O standard 3.3-V LVTTL at B14 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 15
+    Info (169178): Pin KEY[0] uses I/O standard 3.3-V LVTTL at J15 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 16
+    Info (169178): Pin KEY[1] uses I/O standard 3.3-V LVTTL at E5 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 16
+    Info (169178): Pin KEY[2] uses I/O standard 3.3-V LVTTL at AH3 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 16
+    Info (169178): Pin KEY[3] uses I/O standard 3.3-V LVTTL at B3 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 16
+    Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at Y2 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 12
+    Info (169178): Pin VGA_clock uses I/O standard 3.3-V LVTTL at G6 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 8
+    Info (169178): Pin VGA_data uses I/O standard 3.3-V LVTTL at H5 File: C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/VGA.vhd Line: 9
+Info (144001): Generated suppressed messages file C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/output_files/VGA.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 17 warnings
-    Info: Peak virtual memory: 5748 megabytes
-    Info: Processing ended: Fri Mar 22 18:00:23 2019
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:27
+    Info: Peak virtual memory: 5449 megabytes
+    Info: Processing ended: Sat Mar 23 16:34:36 2019
+    Info: Elapsed time: 00:00:22
+    Info: Total CPU time (on all processors): 00:00:28
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/PC1/VGA-master/VGA/output_files/VGA.fit.smsg.
+The suppressed messages can be found in C:/Users/leona/Desktop/Universidad/Labs PC1/VGA_VHDL-Altera-DE12-115/output_files/VGA.fit.smsg.
 
 
